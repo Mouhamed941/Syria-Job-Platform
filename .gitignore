@@ -1,0 +1,27 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.vscode/
+.vs/
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore publish and deployment files
+.publish/
+wwwroot/lib/
+node_modules/
+
+# Ignore environment-specific files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
